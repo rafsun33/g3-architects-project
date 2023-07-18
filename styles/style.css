@@ -1,0 +1,90 @@
+/* common section start */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+.btn-primary {
+    border-radius: 6px;
+    background: #FF900E;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    border: none;
+    padding: 1.25rem 1.5rem;
+    cursor: pointer;
+}
+/* common section end */
+/* header section start */
+header {
+    background: #ff900e1a;
+    padding-left: 8.75rem;
+    padding-right: 8.75rem;
+    max-width: 90rem;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav > ul {
+    display: flex;
+    gap: 3rem;
+}
+
+nav li {
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.banner{
+    padding-bottom: 2.8rem;
+}
+
+.banner-items {
+    text-align: center;
+    max-width: 47.5rem;
+    margin: 0 auto 2.75rem;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.banner-description{
+    margin-bottom: 2rem;
+}
+
+header img {
+    width: 100%;
+}
+
+/* responsive section start */
+
+/* mobile device */
+@media screen and (max-width: 575px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+}
+/* responsive section end */
