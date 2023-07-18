@@ -83,7 +83,7 @@ header img {
 
 /* responsive section start */
 
-/* mobile device */
+/* mobile device start */
 @media screen and (max-width: 575px) {
     header {
         padding-left: 3rem;
@@ -125,4 +125,50 @@ header img {
         padding: 1rem 1rem;
     }
 }
+/* mobile device end */
+
+/* medium device start */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    header {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .navbar-items {
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    nav li {
+        font-size: .75rem;
+    }
+
+    nav>ul {
+        font-size: .5rem;
+        gap: 1rem;
+        padding-left: 0;
+    }
+
+    .banner-title {
+        color: #131313;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner-description {
+        font-size: .75rem;
+        padding-left: 2.75rem;
+        padding-right: 2.75rem;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
+}
+/* medium device end */
+
 /* responsive section end */
