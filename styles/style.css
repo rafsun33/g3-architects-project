@@ -8,6 +8,7 @@
 body {
     margin: 0;
 }
+
 .btn-primary {
     border-radius: 6px;
     background: #FF900E;
@@ -17,6 +18,7 @@ body {
     padding: 1.25rem 1.5rem;
     cursor: pointer;
 }
+
 /* common section end */
 /* header section start */
 header {
@@ -38,7 +40,7 @@ header {
     font-weight: 700;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     gap: 3rem;
 }
@@ -55,7 +57,7 @@ nav li a {
     color: #424242;
 }
 
-.banner{
+.banner {
     padding-bottom: 2.8rem;
 }
 
@@ -70,7 +72,8 @@ nav li a {
     font-size: 4rem;
     margin-bottom: 2rem;
 }
-.banner-description{
+
+.banner-description {
     margin-bottom: 2rem;
 }
 
@@ -82,9 +85,44 @@ header img {
 
 /* mobile device */
 @media screen and (max-width: 575px) {
-    .navbar-brand {
-        font-size: 1.5rem;
+    header {
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
-    
+
+    .navbar-items {
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    nav li {
+        font-size: .75rem;
+    }
+
+    nav>ul {
+        font-size: .5rem;
+        gap: 1rem;
+        padding-left: 0;
+    }
+
+    .banner-title {
+        color: #131313;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner-description {
+        font-size: .75rem;
+        padding-left: 2.75rem;
+        padding-right: 2.75rem;
+    }
+
+    .btn-primary {
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
 }
 /* responsive section end */
